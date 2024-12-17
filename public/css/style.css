@@ -53,10 +53,14 @@ body {
   display: block;
   width: 4.04em;
   height: 2.6em;
-  opacity: 0.86;
+  opacity: 0.82;
   margin: 1.2em 0;
   display: flex;
   float: right;
+  transition: 0.32s;
+}
+.header .header-menu a:hover {
+  opacity: 0.96;
 }
 .header .header-menu a img {
   width: 64%;
@@ -128,6 +132,7 @@ body {
   border: 2px solid rgba(250, 215, 216, 0.6);
   border-radius: 50%;
   position: relative;
+  transition: 0.32s;
 }
 .works-wrapper .works-contents .works-item .item-area .name-area {
   position: absolute;
@@ -148,6 +153,10 @@ body {
 .works-wrapper .works-contents .works-item .item-name {
   position: sticky;
   margin: 2em 0 6% 0;
+}
+.works-wrapper .works-contents .works-item:hover .item-area {
+  background-color: rgba(250, 215, 216, 0.8);
+  border: 2px solid #fad7d8;
 }
 
 footer {

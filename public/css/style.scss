@@ -58,10 +58,14 @@ body {
 			display: block;
 			width: 4.04em;
 			height: 2.6em;
-			opacity: 0.86;
+			opacity: 0.82;
 			margin: 1.2em 0;
 			display: flex;
 			float: right;
+			transition: 0.32s;
+			&:hover {
+				opacity: 0.96;
+			}
 			& img {
 				width: 64%;
 				padding: 4%;
@@ -136,6 +140,7 @@ body {
 				border: 2px solid rgba($pink, 0.6);
 				border-radius: 50%;
 				position: relative;
+				transition: 0.32s;
 				& .name-area {
 					position: absolute;
 					bottom: -4%;
@@ -156,6 +161,10 @@ body {
 			& .item-name {
 				position: sticky;
 				margin: 2em 0 6% 0;
+			}
+			&:hover .item-area {
+				background-color: rgba($pink, 0.8);
+				border: 2px solid rgba($pink, 1);
 			}
 		}
 	}
