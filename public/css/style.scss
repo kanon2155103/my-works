@@ -123,7 +123,7 @@ body {
 		flex-wrap: wrap;
 		justify-content: center;
 		& .works-item {
-			margin: 1rem 3%;
+			margin: 3%;
 			margin-bottom: calc(3% + 0.8em);
 			text-align: center;
 			display: flex;
@@ -167,5 +167,8 @@ footer {
 		flex-direction: column;
 		align-items: center;
 		text-align: center;
+		& * {
+			margin: 3% 0;
+		}
 	}
 }
