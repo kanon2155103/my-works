@@ -53,7 +53,7 @@ body {
   display: block;
   width: 4.04em;
   height: 2.6em;
-  opacity: 0.8;
+  opacity: 0.86;
   margin: 1.2em 0;
   display: flex;
   float: right;
@@ -115,7 +115,7 @@ body {
   justify-content: center;
 }
 .works-wrapper .works-contents .works-item {
-  margin: 3%;
+  margin: 0 3%;
   margin-bottom: calc(3% + 0.8em);
   text-align: center;
   display: flex;
