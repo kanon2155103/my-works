@@ -153,9 +153,6 @@ footer .copy-right {
   .header .header-logo {
     margin-left: 6.4%;
   }
-  .header .header-menu {
-    display: none;
-  }
   .works-contents {
     flex-direction: column;
     align-items: center;
