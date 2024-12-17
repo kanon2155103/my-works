@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>My Works</title>
+	<link rel="icon" href="./white-cat.png">
+	<link rel="stylesheet" href="./public/css/style.css">
+</head>
+<body>
+	<div class="header">
+		<div class="header-logo">
+			<span>My Works</span>My Works
+		</div>
+		<div class="header-menu">
+			<a href="https://github.com/kanon2155103">
+				<img src="./public/images/github.svg" alt="cat-image">
+			</a>
+		</div>
+	</div>
+	<div class="fv"></div>
+	<div class="main">
+		<div class="main-contents">
+			<div class="works-wrapper">
+				<div class="section-title">
+					Links
+				</div>
+				<div class="works-contents">
+
+					<div class="works-item">
+						<a href="https://kanon2155103.github.io/my-portfolio/">
+							<img src="./public/images/works-image.png" alt="">
+							<img class="item-image" src="./public/images/pink-black-cat.png" alt="">
+						</a>
+						<div class="item-name">Portfolio(途中)</div>
+					</div>
+
+					<div class="works-item">
+						<a href="https://kanon2155103.github.io/js-todo-app/">
+							<img src="./public/images/works-image.png" alt="">
+							<img class="item-image" src="./public/images/black-cat.png" alt="">
+						</a>
+						<div class="item-name">Todo List</div>
+					</div>
+
+					<div class="works-item">
+						<a href="https://kanon2155103.github.io/calculator-app">
+							<img src="./public/images/works-image.png" alt="">
+							<img class="item-image" src="./public/images/white-cat.png" alt="">
+						</a>
+						<div class="item-name">Calculator</div>
+					</div>
+
+					<div class="works-item">
+						<a href="https://kanon2155103.github.io/sass-study/"">
+							<img src="./public/images/works-image.png" alt="">
+							<img class="item-image" src="./public/images/pink-white-cat.png" alt="">
+						</a>
+						<div class="item-name">Practice</div>
+					</div>
+
+				</div>
+			</div>
+		</div>
+	</div>
+	<footer>
+		<small class="copy-right">&copy; 2024 kanon</small>
+	</footer>
+	<script>
+		document.addEventListener('DOMContentLoaded', () => {
+			window.addEventListener('scroll', () => {
+				let firstView = document.querySelector('.fv');
+				let header = document.querySelector('.header');
+				if (firstView.offsetHeight < window.scrollY) {
+					header.classList.add('transform');
+					header.classList.remove('white');
+
+				} else {
+					header.classList.add('white');
+					header.classList.remove('transform');
+				}
+			});
+		});
+	</script>
+</body>
+</html>
