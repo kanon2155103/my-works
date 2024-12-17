@@ -155,7 +155,7 @@ body {
   margin: 2em 0 6% 0;
 }
 .works-wrapper .works-contents .works-item:hover .item-area {
-  background-color: rgba(250, 215, 216, 0.8);
+  background-color: rgba(250, 215, 216, 0.84);
   border: 2px solid #fad7d8;
 }
 
