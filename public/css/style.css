@@ -121,6 +121,22 @@ body {
   display: flex;
   flex-flow: column;
 }
+.works-wrapper .works-contents .works-item .item-area {
+  width: 11.25rem;
+  height: 11.25rem;
+  background-color: rgba(250, 215, 216, 0.6);
+  border: 2px solid rgba(250, 215, 216, 0.6);
+  border-radius: 50%;
+  position: relative;
+}
+.works-wrapper .works-contents .works-item .item-area .name-area {
+  position: absolute;
+  bottom: -4%;
+  background-color: rgba(255, 255, 255, 0.32);
+  width: 100%;
+  height: 37%;
+  border-top: 2px solid rgba(255, 255, 255, 0.6);
+}
 .works-wrapper .works-contents .works-item .item-image {
   position: sticky;
   text-align: center;
@@ -131,7 +147,7 @@ body {
 }
 .works-wrapper .works-contents .works-item .item-name {
   position: sticky;
-  margin-top: 2em;
+  margin: 2em 0 6% 0;
 }
 
 footer {

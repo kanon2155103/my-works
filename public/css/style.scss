@@ -1,5 +1,6 @@
 $white: #ffffff;
 $black: #6b1d1e;
+$pink: #FAD7D8;
 $base-color: #fefdf9;
 
 * {
@@ -128,6 +129,22 @@ body {
 			text-align: center;
 			display: flex;
 			flex-flow: column;
+			& .item-area {
+				width: 11.25rem;
+				height: 11.25rem;
+				background-color: rgba($pink, 0.6);
+				border: 2px solid rgba($pink, 0.6);
+				border-radius: 50%;
+				position: relative;
+				& .name-area {
+					position: absolute;
+					bottom: -4%;
+					background-color: rgba($white, 0.32);
+					width: 100%;
+					height: 37%;
+					border-top: 2px solid rgba($white, 0.6);
+				}
+			}
 			& .item-image {
 				position: sticky;
 				text-align: center;
@@ -138,7 +155,7 @@ body {
 			}
 			& .item-name {
 				position: sticky;
-				margin-top: 2em;
+				margin: 2em 0 6% 0;
 			}
 		}
 	}
